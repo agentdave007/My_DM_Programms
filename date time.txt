@@ -1,0 +1,5 @@
+x=['03-10-16','04-10-16','05-10-16','06-10-16','07-10-16']
+    x=[dt.datetime.strptime(i,'%d-%m-%y') for i in x]
+    x=[i.strftime('%Y-%m-%d') for i in x]
+	
+	https://docs.google.com/presentation/d/1huG5OKq4hANs7WmQK0qjsAAot4R6YtgBWhPpb95Hscw/edit?usp=sharing
